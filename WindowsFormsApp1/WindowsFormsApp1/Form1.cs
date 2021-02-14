@@ -27,5 +27,11 @@ namespace WindowsFormsApp1
                 textBox1.Text = File.ReadAllText(dlg.FileName);
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.ShowDialog();
+        }
     }
 }
